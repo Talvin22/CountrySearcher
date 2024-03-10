@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from country_searching.emo_cleaner import EmojiCleaner
 
 
-class CountrySearcher:
+class CountryParser:
     def __init__(self):
         self._data = {"Cost of Living": {}}
         self._session = requests.Session()
